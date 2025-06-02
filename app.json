@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "eko-learning",
+    "name": "Eko Learners' Support",
     "slug": "eko-learning",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -15,7 +15,10 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "permissions": ["INTERNET"],
+      "package": "com.ernzo.ekolearning",
+      "versionCode": 16 
     },
     "web": {
       "bundler": "metro",
@@ -36,6 +39,14 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "bed01994-564a-4b88-982d-fc96f62a3f0a"
+      }
     }
   }
 }
